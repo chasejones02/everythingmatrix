@@ -3,7 +3,7 @@ import { allOperations, getOperation } from './ops/catalog.js';
 import { performTwoMatrixOperation, performScalarOperation, performSingleMatrixOperation } from './ops/dispatcher.js';
 import { el } from './ui/dom.js';
 import { createMatrixGrid, getMatrixValues } from './ui/matrixGrid.js';
-import { displayResult, displayError } from './ui/renderResult.js';
+import { displayResult, displayError } from './ui/renderResults.js';
 
 function updateMatrixGrid() {
   const rows = parseInt(el.rows().value, 10);

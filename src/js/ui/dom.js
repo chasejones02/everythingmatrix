@@ -1,0 +1,15 @@
+export const el = {
+  rows:             () => document.getElementById('rows'),
+  cols:             () => document.getElementById('cols'),
+  matrixA:          () => document.getElementById('matrixA'),
+  matrixB:          () => document.getElementById('matrixB'),
+  matrixBContainer: () => document.getElementById('matrixBContainer'),
+  scalarSection:    () => document.getElementById('scalarSection'),
+  scalarValue:      () => document.getElementById('scalarValue'),
+  searchInput:      () => document.getElementById('searchInput'),
+  operationList:    () => document.getElementById('operationList'),
+  executeButton:    () => document.getElementById('executeButton'),
+  quickButtons:     () => document.querySelectorAll('.op-button'),
+  resultSection:    () => document.getElementById('resultSection'),
+  resultContent:    () => document.getElementById('resultContent'),
+};
